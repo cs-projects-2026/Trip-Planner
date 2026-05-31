@@ -26,4 +26,10 @@ void Debt::changeOwee(People* newOwee){
     owee = newOwee; 
 }
 
+People* Debt::getOwer(){
+    return ower;
+}
 
+People* Debt::getOwee(){
+    return owee;
+}

@@ -19,6 +19,8 @@ public:
     void setDebt(double amount);
     void clearDebt();
     void changeOwee(People* newOwee);
+    People* getOwer();
+    People* getOwee();
 };
 
 
