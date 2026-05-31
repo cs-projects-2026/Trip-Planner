@@ -12,9 +12,12 @@ private:
     double amount;
 
 public:
-    Debt();
-
-
+    Debt(People*, People*, double);
+    void addDebt(double amount);
+    void removeDebt(double amount);
+    void setDebt(double amount);
+    void clearDebt();
+    void changeOwee(People* newOwee);
 };
 
 
