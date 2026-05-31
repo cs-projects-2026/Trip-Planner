@@ -1,9 +1,10 @@
 #ifndef PEOPLE_h
 #define PEOPLE_h
-#include <string>
+#include "all_includes.h"
 using namespace std;
 
 class Debt;
+class Timetable;
 
 class People{
 private:

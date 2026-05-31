@@ -1,6 +1,7 @@
 #ifndef DEBT_h
 #define DEBT_h
-#include <string>
+
+#include "all_includes.h"
 using namespace std;
 
 class People;

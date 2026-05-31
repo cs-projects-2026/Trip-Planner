@@ -1,6 +1,6 @@
 #ifndef TIMETABLE_H
 #define TIMETABLE_H
-#include <string>
+#include "all_includes.h"
 
 class Timetable{ 
     private: 

@@ -1,5 +1,4 @@
-#include "debt.h"
-#include <iostream>
+#include "all_includes.h"
 
 Debt::Debt(People* owee, People* ower, double amount = 0){
     this->ower = ower;
